@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>LDA Gallstones | Compra de Pedra do Fel Bovina</title>
+
+<meta name="description" content="Empresa especializada na compra de pedra do fel bovina com um dos melhores preços do mercado. Negociação transparente, pesagem por vídeo chamada e pagamento imediato.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#0a0a0a;
+color:#e8e8e8;
+}
+
+header{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:15px 40px;
+background:#000;
+border-bottom:2px solid #d4af37;
+}
+
+.logo img{
+height:70px;
+}
+
+nav a{
+color:#fff;
+margin-left:25px;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+padding:100px 20px;
+text-align:center;
+background:linear-gradient(180deg,#000,#111);
+}
+
+.hero h1{
+font-size:46px;
+color:#d4af37;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:800px;
+margin:auto;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#25D366;
+color:#fff;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+}
+
+.section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section h2{
+text-align:center;
+color:#d4af37;
+margin-bottom:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:#141414;
+padding:25px;
+border-radius:10px;
+border:1px solid #333;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#d4af37;
+margin-bottom:10px;
+}
+
+.example{
+text-align:center;
+}
+
+.example img{
+max-width:100%;
+border-radius:10px;
+border:3px solid #d4af37;
+margin-top:25px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact form{
+max-width:500px;
+margin:30px auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact input,
+.contact textarea{
+padding:12px;
+border-radius:6px;
+border:none;
+}
+
+.contact button{
+padding:14px;
+background:#d4af37;
+border:none;
+font-weight:600;
+cursor:pointer;
+}
+
+footer{
+background:#000;
+padding:30px;
+text-align:center;
+border-top:2px solid #d4af37;
+margin-top:60px;
+}
+
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:#fff;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,0.4);
+}
+
+@media (max-width:700px){
+
+header{
+flex-direction:column;
+gap:10px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+}
+
+</style>
+
+<script>
+
+function sendWhats(){
+
+var name=document.getElementById("name").value
+var msg=document.getElementById("msg").value
+
+var text="Nome: "+name+" - Mensagem: "+msg
+
+window.open("https://wa.me/5522999488797?text="+encodeURIComponent(text))
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<img src="logo.png" alt="LDA Gallstones">
+</div>
+
+<nav>
+<a href="#sobre">Empresa</a>
+<a href="#processo">Processo</a>
+<a href="#qualidade">Qualidade</a>
+<a href="#contato">Contato</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Compra de Pedra do Fel Bovina</h1>
+
+<p>
+Trabalhamos com um dos melhores preços do mercado para compra de pedras do fel bovina.
+Recebemos envios via Sedex, Azul Cargo e outras transportadoras.
+Dentro do estado do Rio de Janeiro também realizamos coleta presencial.
+</p>
+
+<a class="btn" href="https://wa.me/5522999488797">Falar no WhatsApp</a>
+
+</section>
+
+<section class="section" id="sobre">
+
+<h2>Sobre a Empresa</h2>
+
+<p style="text-align:center; max-width:800px; margin:auto;">
+A LDA Gallstones é especializada na compra de pedra do fel bovina em todo o Brasil.
+A pesagem e negociação são realizadas por vídeo chamada com o cliente assim que recebemos as pedras.
+Após a confirmação da pesagem e negociação o pagamento é realizado imediatamente.
+</p>
+
+</section>
+
+<section class="section" id="processo">
+
+<h2>Como Funciona</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Envio das Pedras</h3>
+<p>
+Recebemos via Sedex, Azul Cargo e outras transportadoras quando fora do estado do Rio de Janeiro.
+</p>
+</div>
+
+<div class="card">
+<h3>Coleta no RJ</h3>
+<p>
+Dentro do estado do Rio de Janeiro nossa equipe pode buscar as pedras pessoalmente.
+</p>
+</div>
+
+<div class="card">
+<h3>Pesagem por Vídeo</h3>
+<p>
+A pesagem e negociação são feitas por vídeo chamada para total transparência.
+</p>
+</div>
+
+<div class="card">
+<h3>Pagamento Imediato</h3>
+<p>
+Após a confirmação da pesagem e negociação o pagamento é realizado imediatamente.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section example" id="qualidade">
+
+<h2>Exemplo de Qualidade Desejada</h2>
+
+<p>
+Exemplo de pedras do fel bovina dentro do padrão de qualidade desejado pela empresa.
+</p>
+
+<img src="pedras.jpg">
+
+</section>
+
+<section class="section contact" id="contato">
+
+<h2>Contato</h2>
+
+<p>
+Envie uma mensagem diretamente para nosso WhatsApp.
+</p>
+
+<form onsubmit="event.preventDefault();sendWhats();">
+
+<input id="name" placeholder="Seu nome">
+
+<textarea id="msg" placeholder="Mensagem"></textarea>
+
+<button type="submit">Enviar para WhatsApp</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>LDA Gallstones • Compra de Pedra do Fel Bovina</p>
+
+<p>WhatsApp: +55 22 99948-8797</p>
+
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/5522999488797">
+
+WhatsApp
+
+</a>
+
+</body>
+
+</html>
